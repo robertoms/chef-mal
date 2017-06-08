@@ -58,13 +58,13 @@
     "filesystem": {
       "/dev/mapper/vg_centos6-lv_root": {
         "kb_size": "14225776",
-        "kb_used": "3579432",
-        "kb_available": "9917052",
+        "kb_used": "3579548",
+        "kb_available": "9916936",
         "percent_used": "27%",
         "mount": "/",
         "total_inodes": "912128",
-        "inodes_used": "82513",
-        "inodes_available": "829615",
+        "inodes_used": "82527",
+        "inodes_available": "829601",
         "inodes_percent_used": "10%",
         "fs_type": "ext4",
         "mount_options": [
@@ -423,26 +423,26 @@
         "surplus": "0"
       },
       "total": "1020052kB",
-      "free": "556400kB",
-      "buffers": "16800kB",
-      "cached": "213196kB",
-      "active": "224172kB",
-      "inactive": "133888kB",
-      "dirty": "48kB",
+      "free": "569656kB",
+      "buffers": "14540kB",
+      "cached": "195040kB",
+      "active": "219664kB",
+      "inactive": "125920kB",
+      "dirty": "28kB",
       "writeback": "0kB",
-      "anon_pages": "128104kB",
-      "mapped": "18744kB",
-      "slab": "80932kB",
-      "slab_reclaimable": "21584kB",
-      "slab_unreclaim": "59348kB",
-      "page_tables": "6972kB",
+      "anon_pages": "136044kB",
+      "mapped": "18776kB",
+      "slab": "80248kB",
+      "slab_reclaimable": "21044kB",
+      "slab_unreclaim": "59204kB",
+      "page_tables": "6956kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "510024kB",
-      "committed_as": "394568kB",
+      "committed_as": "404740kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "7364kB",
-      "vmalloc_chunk": "34359707500kB",
+      "vmalloc_used": "7388kB",
+      "vmalloc_chunk": "34359707108kB",
       "hugepage_size": "2048kB"
     },
     "cpu": {
@@ -723,15 +723,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "1933844",
-              "packets": "10346",
+              "bytes": "2174236",
+              "packets": "11626",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "1933844",
-              "packets": "10346",
+              "bytes": "2174236",
+              "packets": "11626",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -741,16 +741,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "12087344",
-              "packets": "155669",
+              "bytes": "13084142",
+              "packets": "167970",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "1417421889",
-              "packets": "1070010",
+              "bytes": "1503223579",
+              "packets": "1135516",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -758,15 +758,15 @@
           },
           "docker0": {
             "rx": {
-              "bytes": "7132588",
-              "packets": "122507",
+              "bytes": "7712621",
+              "packets": "132110",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "1016515150",
-              "packets": "144031",
+              "bytes": "1092094524",
+              "packets": "155976",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -3593,12 +3593,12 @@
       "by_device": {
         "/dev/mapper/vg_centos6-lv_root": {
           "kb_size": "14225776",
-          "kb_used": "3579432",
-          "kb_available": "9917052",
+          "kb_used": "3579548",
+          "kb_available": "9916936",
           "percent_used": "27%",
           "total_inodes": "912128",
-          "inodes_used": "82513",
-          "inodes_available": "829615",
+          "inodes_used": "82527",
+          "inodes_available": "829601",
           "inodes_percent_used": "10%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3786,12 +3786,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "14225776",
-          "kb_used": "3579432",
-          "kb_available": "9917052",
+          "kb_used": "3579548",
+          "kb_available": "9916936",
           "percent_used": "27%",
           "total_inodes": "912128",
-          "inodes_used": "82513",
-          "inodes_available": "829615",
+          "inodes_used": "82527",
+          "inodes_available": "829601",
           "inodes_percent_used": "10%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -4017,13 +4017,13 @@
         "/dev/mapper/vg_centos6-lv_root,/": {
           "device": "/dev/mapper/vg_centos6-lv_root",
           "kb_size": "14225776",
-          "kb_used": "3579432",
-          "kb_available": "9917052",
+          "kb_used": "3579548",
+          "kb_available": "9916936",
           "percent_used": "27%",
           "mount": "/",
           "total_inodes": "912128",
-          "inodes_used": "82513",
-          "inodes_available": "829615",
+          "inodes_used": "82527",
+          "inodes_available": "829601",
           "inodes_percent_used": "10%",
           "fs_type": "ext4",
           "mount_options": [
@@ -4259,11 +4259,11 @@
         }
       }
     },
-    "ohai_time": 1496885065.2668948,
-    "uptime_seconds": 26779,
-    "uptime": "7 hours 26 minutes 19 seconds",
-    "idletime_seconds": 25997,
-    "idletime": "7 hours 13 minutes 17 seconds",
+    "ohai_time": 1496886449.2628636,
+    "uptime_seconds": 28163,
+    "uptime": "7 hours 49 minutes 23 seconds",
+    "idletime_seconds": 27328,
+    "idletime": "7 hours 35 minutes 28 seconds",
     "shells": [
       "/bin/sh",
       "/bin/bash",
@@ -4491,23 +4491,23 @@
     "machinename": "centos-6",
     "domain": null,
     "recipes": [
-      "apache",
-      "apache::default",
-      "apache::server"
+      "workstation",
+      "workstation::default",
+      "workstation::setup"
     ],
     "expanded_run_list": [
-      "apache::default"
+      "workstation::default"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "apache": {
+      "workstation": {
         "version": "0.2.1"
       }
     }
   },
   "run_list": [
-    "recipe[apache]"
+    "recipe[workstation]"
   ]
 }
